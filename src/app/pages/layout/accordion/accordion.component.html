@@ -1,0 +1,57 @@
+<nb-accordion multi>
+  <nb-accordion-item expanded="true">
+    <nb-accordion-item-header>
+      {{title}}
+    </nb-accordion-item-header>
+    <nb-accordion-item-body>
+      <nb-alert *ngIf="item1" style="color: white; background-color: gray">{{item1}}</nb-alert>
+      <nb-alert *ngIf="item2" style="background-color: lightgray;">{{item2}}</nb-alert>
+      <nb-alert *ngIf="item3" style="color: white; background-color: gray;">{{item3}}</nb-alert>
+    </nb-accordion-item-body>
+  </nb-accordion-item>
+</nb-accordion>
+
+
+<!-- <div class="accordions-container row">
+  <div class="accordion-container col-md-12 col-lg-12 col-xxxl-12">
+    <nb-accordion multi>
+      <nb-accordion-item expanded="true">
+        <nb-accordion-item-header>
+          Rekomendacje na podstawie bieżących danych
+        </nb-accordion-item-header>
+        <nb-accordion-item-body>
+          <nb-alert status="primary">Bierz prysznic zamiast kąpieli w wannie i ogranicz czas spędzany pod natryskiem!
+          </nb-alert>
+          <nb-alert status="success">Wymień spłuczkę na model z opcją mniejszego spłukiwania!</nb-alert>
+          <nb-alert status="info">Nie uruchamiaj zmywarki ani pralki, dopóki nie będzie pełna! Włączanie urządzeń, które
+            nie są załadowane do końca powoduje zużycie większej ilości wody.</nb-alert>
+        </nb-accordion-item-body>
+      </nb-accordion-item>
+
+      <nb-accordion-item expanded="true">
+        <nb-accordion-item-header>
+          Pamiętaj
+        </nb-accordion-item-header>
+        <nb-accordion-item-body>
+          <nb-alert status="primary">Skrócenie czasu spędzonego pod prysznicem o 2 minuty pozwala zaoszczędzić 15litrów
+            wody!</nb-alert>
+          <nb-alert status="success">Zakręć kran podczas mycia zębów.</nb-alert>
+        </nb-accordion-item-body>
+      </nb-accordion-item>
+
+      <nb-accordion-item expanded="true">
+        <nb-accordion-item-header>
+          Ciekawostki
+        </nb-accordion-item-header>
+        <nb-accordion-item-body>
+          <nb-alert status="primary">Meduza i ogórek to w 95% woda!</nb-alert>
+          <nb-alert status="success">Znaleziono wodę w innej galaktyce! Więcej:
+            https://www.slashgear.com/scientists-discover-signs-of-water-in-a-distant-galaxy-04698229/</nb-alert>
+          <nb-alert status="info">You have been successfully authenticated!</nb-alert>
+          <nb-alert status="warning">You have been successfully authenticated!</nb-alert>
+          <nb-alert status="danger">You have been successfully authenticated!</nb-alert>
+        </nb-accordion-item-body>
+      </nb-accordion-item>
+    </nb-accordion>
+  </div>
+</div> -->

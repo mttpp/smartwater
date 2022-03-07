@@ -1,0 +1,58 @@
+<nb-card>
+  <nb-card-header class="header">Parametry</nb-card-header>
+
+  <nb-card-body class="body">
+    <form>
+      <div class="form-group row">
+        <label for="inputEmail1" class="label col-sm-3 col-form-label">Powierzchnia mieszkania</label>
+        <div class="col-sm-9">
+          <input type="email" value="50 m2" nbInput fullWidth id="inputEmail1" placeholder="Powierzchnia mieszkania">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="inputEmail2" class="label col-sm-3 col-form-label">Ilość pokoi</label>
+        <div class="col-sm-9">
+          <input type="email" value="2" nbInput fullWidth id="inputEmail2" placeholder="Ilość pokoi">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="inputEmail3" class="label col-sm-3 col-form-label">Ilość mieszkańców</label>
+        <div class="col-sm-9">
+          <input type="email" value="4" nbInput fullWidth id="inputEmail3" placeholder="Ilość mieszkańców">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 label">Punkty poboru</label>
+        <div class="col-sm-9">
+          <nb-radio-group>
+            <nb-radio>1 punkt</nb-radio>
+            <nb-radio>2 punkty</nb-radio>
+            <nb-radio>3 punkty</nb-radio>
+            <nb-radio>4 punkty</nb-radio>
+          </nb-radio-group>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 label">Inne przyłącza</label>
+        <div class="col-sm-9">
+          <div class="validation-checkboxes">
+            <nb-checkbox checked>Pralka</nb-checkbox>
+            <nb-checkbox checked>Zmywarka</nb-checkbox>
+            <nb-checkbox>Kostkarka</nb-checkbox>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </nb-card-body>
+
+  <nb-card-footer class="footer">
+    <div style="display: flex; justify-content: end;">
+      <button nbButton disabled status="primary">Zapisz</button>
+    </div>
+  </nb-card-footer>
+</nb-card>

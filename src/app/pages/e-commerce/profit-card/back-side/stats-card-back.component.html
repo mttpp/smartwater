@@ -1,0 +1,21 @@
+<nb-card-header>
+  <!--<i class="ion-social-usd"></i>-->
+  <span class="title">Zużycie wody</span>
+</nb-card-header>
+<nb-card-body>
+  <div class="info">
+    <div class="period">
+      <div class="caption">1.01.2021 - 30.06.2021</div>
+      <div class="label">
+        <span class="currency"></span>300 m3
+      </div>
+    </div>
+    <div class="period latest">
+      <div class="caption">1.07.2021 - 31.12.2021</div>
+      <div class="label">
+        <span class="currency"></span>860 m3
+      </div>
+    </div>
+  </div>
+  <ngx-stats-ares-chart [points]="chartData"></ngx-stats-ares-chart>
+</nb-card-body>

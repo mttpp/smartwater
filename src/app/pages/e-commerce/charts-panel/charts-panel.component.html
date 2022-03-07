@@ -1,0 +1,40 @@
+<nb-card size="giant">
+  <nb-tabset fullWidth (changeTab)="changeTab($event)">
+    <nb-tab tabTitle="Godzinowe">
+      <div class="chart-container">
+        <ngx-orders-chart-daily #dailyChart></ngx-orders-chart-daily>
+      </div>
+    </nb-tab>
+    <nb-tab tabTitle="Dzienne">
+      <div class="chart-container">
+        <ngx-orders-chart-monthly #monthlyChart></ngx-orders-chart-monthly>
+
+      </div>
+    </nb-tab>
+    <nb-tab tabTitle="Miesięczne">
+      <div class="chart-container">
+        <ngx-orders-chart-yearly #yearlyChart></ngx-orders-chart-yearly>
+
+      </div>
+    </nb-tab>
+  </nb-tabset>
+</nb-card>
+
+<!--
+  <nb-tab tabTitle="Miesięczne">
+      <div class="chart-container">
+        <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
+        <ngx-chart-panel-header [type]="period" (periodChange)="setPeriodAndGetChartData($event)">
+        </ngx-chart-panel-header>
+        <ngx-orders-chart #ordersChart [ordersChartData]="ordersChartData"></ngx-orders-chart>
+      </div>
+    </nb-tab>
+    <nb-tab tabTitle="Roczne" [lazyLoad]="true">
+      <div class="chart-container">
+        <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
+        <ngx-chart-panel-header [type]="period" (periodChange)="setPeriodAndGetChartData($event)">
+        </ngx-chart-panel-header>
+        <ngx-profit-chart #profitChart [profitChartData]="profitChartData"></ngx-profit-chart>
+      </div>
+    </nb-tab>
+-->
