@@ -25,7 +25,7 @@ export class WyzwanieComponent implements OnDestroy {
   status: NbComponentStatus = 'info';
 
   title = 'Czy wiesz już czym jest Wyzwanie?';
-  content = `Aby zmotytwować użytkowników do oszczedzania wody, zwłaszcza najmłodsze pokolenie, przygotowlaiśmy grę: Po Kropelce, umożliwiającą zbieranie kropelek wody. Celem gry jest zalesienie jak największego terenu. Gra wspiera systematyczność, premiując ją dodatkowymi kropelkami. Wykonując zadania i zdobywając osiągnięcia użytkownik może przyspieszyć proces sadzenia kolejnych drzew.`;
+  content = `Aby zmotywować użytkowników do oszczędzania wody, zwłaszcza najmłodsze pokolenie, przygotowaliśmy grę: Po Kropelce, umożliwiającą zbieranie kropelek wody. Celem gry jest zalesienie jak największego terenu. Gra wspiera systematyczność, premiując ją dodatkowymi kropelkami. Wykonując zadania i zdobywając osiągnięcia użytkownik może przyspieszyć proces sadzenia kolejnych drzew.`;
 
   constructor(private toastrService: NbToastrService) {
 

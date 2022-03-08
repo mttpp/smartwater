@@ -98,7 +98,7 @@ export class DashboardComponent implements OnDestroy {
   status: NbComponentStatus = 'info';
 
   title = 'Czy wiesz już czym jest Twój dashboard?';
-  content = `Prezentujemy tutaj zagregowane informacje o aktulanym stanie licznika w formie zużycia bieżącego dziś, w tym miesiącu oraz w tym okresie rozliczeniowym. Znajduje się tutaj również zużycie podzielone przy pomocy AI na właściwe kategorie. Ekran główny to również rekomentacje, wygenerowane na podstawie aktualnego sposobu zużycia wody.`;
+  content = `Prezentujemy tutaj zagregowane informacje o aktualnym stanie licznika w formie zużycia bieżącego dziś, w tym miesiącu oraz w tym okresie rozliczeniowym. Znajduje się tutaj również zużycie podzielone przy pomocy AI na właściwe kategorie. Ekran główny to również rekomendacje, wygenerowane na podstawie aktualnego sposobu zużycia wody.`;
 
   constructor(private themeService: NbThemeService,
     private solarService: SolarData,
