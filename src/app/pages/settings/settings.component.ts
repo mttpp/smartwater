@@ -39,7 +39,7 @@ export class SettingsComponent implements OnDestroy {
   status: NbComponentStatus = 'info';
 
   title = 'Czy wiesz już czym jest Mój dom?';
-  content = `To szczegółowa Twojego miejsca zamieszkania, w tym przykładzie mówimy o typowym M2, mieszkaniu o powierzchni ok 50m2, 2 pokojach i 4 mieszkańcach. Mieszkanie to posiada cztery punkty poboru wody (2 ciepłej i 2 zimnej) oraz dodatkowe przyłącza na pralkę i zmywarkę.`;
+  content = `To szczegółowa konfiguracja Twojego miejsca zamieszkania, w tym przykładzie mówimy o typowym M2, mieszkaniu o powierzchni ok 50m2, 2 pokojach i 4 mieszkańcach. Mieszkanie to posiada cztery punkty poboru wody (2 ciepłej i 2 zimnej) oraz dodatkowe przyłącza na pralkę i zmywarkę.`;
 
 
   constructor(private toastrService: NbToastrService) {

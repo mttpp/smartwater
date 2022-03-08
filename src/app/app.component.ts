@@ -9,6 +9,7 @@ import { SeoService } from './@core/utils/seo.service';
 
 @Component({
   selector: 'ngx-app',
+  styleUrls: ['./app.component.scss'],
   template: '<router-outlet></router-outlet>',
 })
 export class AppComponent implements OnInit {
